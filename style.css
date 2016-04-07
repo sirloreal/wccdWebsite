@@ -28,7 +28,7 @@
 /* General style settings for html elements */
   body {
       position: relative; 
-      /* background-color: #f8f8f8; */
+      background-color: #f8f8f8; /* Styles the whole background with the same colour as the site's navbar */
   }
   h1 {
     font-family: 'Josefin Sans';
