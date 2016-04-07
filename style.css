@@ -74,6 +74,25 @@
       font-size: 1.8rem;
     }
   }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 6.0rem;
+    }
+
+    h3 {
+      font-size: 5.0rem;
+    }
+
+    h4 {
+      font-size: 2.0rem;
+    }
+
+    p {
+      font-size: 2.0rem;
+    }
+
+  }
   
   .navbar-nav > li > a {
     /*padding-top: 10px;
@@ -169,8 +188,50 @@
   }
 }
 
+/* E.g. Desktops */
+/* TODO: Tinker with the dimensions */
+@media (min-width: 1024px) {
+    .navbar {
+    height: 80px; /* 25px top and bottom plus 30 for the logo */
+  }
+
+  .navbar-nav > li > a {
+    line-height: 60px;
+  }
+
+  #section1 {
+    padding-top: 250px;
+    height: 690px;
+    background-image: url("images/section1.png");
+    background-position: 0px 80px;
+  }
+
+  #section2 {
+    padding-top: 100px;
+    height: 600px;
+    background-image: url("images/section2.png");
+    background-position: 100%;
+  }
+
+  #section3 {
+    padding-top: 100px;
+    height: 600px;
+  }
+
+  #section5 {
+    padding-top:200px;
+    height: 610px;
+    background-image: url("images/section5.png")
+  }
+
+  #section6 {
+    padding-top: 25px;
+    height: 100px;
+  }
+}
+
 /* E.g. Tablet with portrait orientation */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .navbar {
     height: 80px; /* 25px top and bottom plus 30 for the logo */
   }
@@ -189,7 +250,7 @@
   #section2 {
     padding-top:80px;
     height:550px; 
-    background-image: url("images/section2.png");     
+    background-image: url("images/section2T.png");     
     background-position: 100%;     
   }
   #section3 {
@@ -199,7 +260,7 @@
   #section5 {
     padding-top:100px;
     height:380px;
-    background-image: url("images/section5-01.png"); 
+    background-image: url("images/section5.png"); 
   }
   #section6 {
     padding-top:25px;
@@ -226,7 +287,7 @@
   #section5 {
     padding-top:50px;
     height:250px;
-    background-image: url("images/section5-01.png"); 
+    background-image: url("images/section5.png"); 
   }
   #section6 {
     padding-top:25px;
