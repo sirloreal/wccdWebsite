@@ -1,0 +1,246 @@
+  /* Base font sizes  */
+  @media (min-width: 858px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 780px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (min-width: 702px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 724px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (min-width: 623px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* General style settings for html elements */
+  body {
+      position: relative; 
+  }
+  h1 {
+  font-family: 'Josefin Sans';
+  font-size: 4.5rem;
+  font-weight: 'lighter';
+  }
+  h2 {
+  font-family: 'Josefin Sans';
+  font-size: 3.0rem;
+  font-weight: 'lighter';
+  }
+  h3 {
+  font-family: 'Josefin Sans';
+  font-size: 2.0rem;
+  font-weight: 'lighter';
+  }
+  h4 {
+    font-family: 'Josefin Sans';
+  font-size: 1.8rem;
+  font-weight: 'lighter';
+  }
+  p { 
+    font-family: 'Roboto', sans-serif; 
+  font-size: 1.2rem;
+  }
+  
+  @media (max-width: 767px) {
+    h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    2.0rem;
+  }
+  h3 {
+    1.5rem;
+  }
+  p {
+    1.2rem;
+  }
+  }
+  
+  .navbar-nav > li > a {
+    /*padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 70px; */
+  padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+  /*@media (max-width: 480px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+  }
+  } */
+   
+  /* .navbar-brand {
+    height: 50px;
+  }
+  @media (max-width: 480px) {
+    
+  }  */
+  
+  /*
+    .navbar-brand {
+    float: left;
+    height: 100px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 100px;
+  } 
+  */
+
+  .scroll-padding {
+    padding-top: 40px;
+  }
+  
+  /* @media (max-device-width: 481px) and (orientation: landscape) {
+    .col-xsl {
+      float: right;
+      width: 50%;
+    }
+  } */
+  
+.row-centered {
+    text-align:center;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+/* General and common styling across all sections */
+#section1 {
+  color: #f2e4c3; 
+  background-color: #242326;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#section2 {
+  color: #242326; 
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 50% 100% ;
+}
+
+#section3 {
+  color: #f2e4c3; 
+  background-color: #242326;
+}
+
+#section5 {
+  color: #242326; 
+  background-color: #f2e4c3;
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+#section6 {
+  color: #f2e4c3; 
+  background-color: #242326;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    padding: 0px;
+  }
+}
+
+/* E.g. Tablet with portrait orientation */
+@media (min-width: 768px) {
+  #section1 {
+    padding-top:200px;
+    height:600px;
+    background-image: url("images/section1.png");     
+    background-position: 0px 100px;    
+  }
+  #section2 {
+    padding-top:50px;
+    height:400px; 
+    background-image: url("images/section2_2.png");     
+    background-position: 100%;     
+  }
+  #section3 {
+    padding-top:100px;
+    height:550px;
+  }
+  #section5 {
+    padding-top:100px;
+    height:500px;
+    background-image: url("images/section5-01.png"); 
+  }
+  #section6 {
+    padding-top:25px;
+    height:100px;
+  }
+}
+
+/* E.g. Mobile with landscape orientation */
+@media (min-width: 480px) {
+  #section1 {
+    padding-top:100px;
+    height:300px;
+    background-image: url("images/section1.png"); 
+    background-position: 0px 50px; 
+  }
+  #section2 {
+    padding-top:50px;
+    height:300px;
+  }
+  #section3 {
+    padding-top:100px;
+    height:700px;
+  }
+  #section5 {
+    padding-top:50px;
+    height:250px;
+    background-image: url("images/section5-01.png"); 
+  }
+  #section6 {
+    padding-top:25px;
+    height:100px;
+  }
+}
+
+/* E.g. Mobile with portrait orientation */
+@media (max-width:479px) {
+  #section1 {
+    padding-top:100px;
+    height:345px;
+    background-image: url("images/bg1m.png"); 
+    background-position: 0px -5px; 
+  }
+  #section2 {
+    height:400px;
+    background-image: none; 
+    background-position: 100%; 
+  }
+  #section3 {
+    padding-top:60px;
+    height:600px;
+  } /* TODO: This section requires extra padding- work out why and fix properly */
+  #section5 {
+    height:150px;
+    background-image: url("images/bg5m.png");
+  }
+  #section6 {
+    padding-top:25px;
+    height:100px;
+  }
+}
