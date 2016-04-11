@@ -148,9 +148,9 @@
 
 /* E.g. Desktops */
 /* TODO: Tinker with the dimensions */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (min-height: 768px) {
     .navbar {
-    height: 80px; /* 25px top and bottom plus 30 for the logo */
+    height: 80px; /* 25px top and bottom plus 30 for the logo */ 
   }
 
   .navbar-nav > li > a {
@@ -179,6 +179,49 @@
   #section5 {
     padding-top:200px;
     height: 610px;
+    background-image: url("images/section5.png")
+  }
+
+  #section6 {
+    padding-top: 25px;
+    height: 100px;
+  }
+}
+
+
+/* E.g. Lanscape tablets */
+/* TODO: Tinker with the dimensions */
+@media (min-width: 1024px) and (max-height: 768px) {
+    .navbar {
+    height: 80px; /* 25px top and bottom plus 30 for the logo */
+  }
+
+  .navbar-nav > li > a {
+    line-height: 60px;
+  }
+
+  #section1 {
+    padding-top: 250px;
+    height: 580px;
+    background-image: url("images/section1.png");
+    background-position: 0px 80px;
+  }
+
+  #section2 {
+    padding-top: 100px;
+    height: 550px;
+    background-image: url("images/section2.png");
+    background-position: 100%;
+  }
+
+  #section3 {
+    padding-top: 100px;
+    height: 575px;
+  }
+
+  #section5 {
+    padding-top:200px;
+    height: 500px;
     background-image: url("images/section5.png")
   }
 
