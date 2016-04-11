@@ -241,6 +241,13 @@
     line-height: 60px;
   }
 
+  .col-push-6 {
+    left: 50%;
+  }
+  .col-pull-6 {
+    right: 50%;
+  }
+
   /* TODO: Play around with positioning to get the background looking good!*/
   #section1 {
     padding-top:200px;
@@ -275,6 +282,17 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+  .col-xs-landscape-6 {
+    width:50%;
+    float:left;
+  }
+
+  .col-push-6 {
+    left: 50%;
+  }
+  .col-pull-6 {
+    right: 50%;
+  }
   #section1 {
     padding-top:100px;
     height:300px;
@@ -287,7 +305,7 @@
   }
   #section3 {
     padding-top:100px;
-    height:700px;
+    height:550px;
   }
   #section5 {
     padding-top:50px;
