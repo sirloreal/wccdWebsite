@@ -67,27 +67,40 @@
 </div>
 
 <div id="section3" class="container">
-    <div class="row">
 
-      <div class="col-xs-landscape-6 col-sm-6 col-push-6 col-lg-6">
-        <p>
-        <!-- Use border-radius to put a nice curved and cheesy border around img -->
-        <img class="img-responsive" style="border-radius: 2px;" src="images/pic1.jpg"></img>
-        </p>        
-      </div>
+    <!-- This is the content that will be shown on mobile devices -->
+    <div class="visible-xs-block">
+        <div class="row">
+          <div class="col-md-12"> 
+            <h4>GARY PAGE</h4>
+            <h3 style="color: #ffffff;">Lead Technical Architect</h3>
+            <img class="img-responsive" style="border-radius: 2px; max-width: 40%" src="images/pic2.jpg" align="right" />
+            <p style="color: #ffffff;"> In in luctus felis, eget pellentesque ipsum. Nullam finibus dictum erat ac mollis. Cras vel euismod ipsum. Curabitur interdum finibus justo ac semper. </p>
+            <p style="color: #ffffff;">Pellentesque ac dapibus eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas in velit tincidunt mi laoreet auctor a at purus. </p>
+            <p style="color: #ffffff;">Vestibulum sodales, enim a elementum tincidunt, risus massa varius nunc, eget consectetur velit ex nec ante. </p>
+            <p><a href="https://twitter.com/sirloreal"><img src="images/TwitterLogo44.png"></img></a> &nbsp; <a href="https://uk.linkedin.com/in/garyrpage"><img src="images/In-White-34px-R.png"></img></a></p>
+          </div>
+        </div>
+    </div>
 
-      <!-- TODO: Look at Bootstrap column wrapping -->
-      <!-- TODO: Also look at Bootstrap nesting of rows/columns -->
-      <div class="col-xs-landscape-6 col-sm-6 col-pull-6 col-lg-6">
-        <!-- TODO: Think the name wants to be an h3 and the title a h2 -->
-        <h4>GARY PAGE</h4>
-        <h3 style="color: #ffffff;">Lead Technical Architect</h3>
-        <p style="color: #ffffff;"> In in luctus felis, eget pellentesque ipsum. Nullam finibus dictum erat ac mollis. Cras vel euismod ipsum. Curabitur interdum finibus justo ac semper. </p>
-        <p style="color: #ffffff;">Pellentesque ac dapibus eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas in velit tincidunt mi laoreet auctor a at purus. </p>
-        <p style="color: #ffffff;">Vestibulum sodales, enim a elementum tincidunt, risus massa varius nunc, eget consectetur velit ex nec ante. </p>
-        <p><a href="https://twitter.com/sirloreal"><img src="images/TwitterLogo44.png"></img></a> &nbsp; <a href="https://uk.linkedin.com/in/garyrpage"><img src="images/In-White-34px-R.png"></img></a></p>
+    <!-- This is the content that will be shown on tablets and upwards -->
+    <div class="hidden-xs visible-sm-block visible-md-block visible-lg-block">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6">
+          <img class="img-responsive" style="border-radius: 2px;" src="images/pic1.jpg"></img>      
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <!-- TODO: Think the name wants to be an h3 and the title a h2 -->
+          <h4>GARY PAGE</h4>
+          <h3 style="color: #ffffff;">Lead Technical Architect</h3>
+          <p style="color: #ffffff;"> In in luctus felis, eget pellentesque ipsum. Nullam finibus dictum erat ac mollis. Cras vel euismod ipsum. Curabitur interdum finibus justo ac semper. </p>
+          <p style="color: #ffffff;">Pellentesque ac dapibus eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas in velit tincidunt mi laoreet auctor a at purus. </p>
+          <p style="color: #ffffff;">Vestibulum sodales, enim a elementum tincidunt, risus massa varius nunc, eget consectetur velit ex nec ante. </p>
+          <p><a href="https://twitter.com/sirloreal"><img src="images/TwitterLogo44.png"></img></a> &nbsp; <a href="https://uk.linkedin.com/in/garyrpage"><img src="images/In-White-34px-R.png"></img></a></p>
+        </div>
       </div>
-	</div>
+    </div>
+
 </div>
 
 <div id="section5" class="container">
