@@ -21,7 +21,7 @@
 }
 @media (min-width: 623px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
 }
 
@@ -301,7 +301,7 @@
     font-size: 2.75rem;
   }
     p { 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .col-xs-12-landscape { /** Pushes extra padding around heading to avoid branding overlap **/
     padding-left: 100px;
@@ -324,7 +324,7 @@
     background-position: 0px 50px; 
   }
   #section2 {
-    height:300px;
+    height:auto;
     padding-bottom:50px;
   }
   #section3 {
