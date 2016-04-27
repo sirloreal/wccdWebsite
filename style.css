@@ -106,6 +106,10 @@
     float: none;
   }
 
+  .img-responsive {
+    border-radius: 2px;
+  }
+
 /* General and common styling across all sections */
 #section1 {
   height: 100%;
@@ -157,6 +161,11 @@
     left: 50%;
     position: absolute;
     padding: 0px;
+  }
+  .img-responsive {
+    margin-left: 5px; 
+    margin-bottom:5px; 
+    max-width: 40%
   }
 }
 
