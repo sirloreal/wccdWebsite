@@ -175,7 +175,6 @@
 }
 
 /* E.g. Desktops */
-/* TODO: Look at flexbox to vertically align a div within another div **/
 @media (min-width: 1024px) and (min-height: 768px) {
     .navbar {
     height: 80px; /* 25px top and bottom plus 30 for the logo */ 
@@ -287,7 +286,7 @@
   }
   #section2 {
     padding-top:80px;
-    height:auto; /*550px; */
+    height:auto;
     padding-bottom:80px;
     background-image: url("images/section2T.png");     
     background-position: 100%;     
