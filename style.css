@@ -121,6 +121,13 @@
     width: 44px;
   }
 
+  /*Overrides the colour scheme for list items in the Bootstrap navbar. No background and underlined text */
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    text-decoration:underline;
+    background-color:transparent;
+  }
+
 /* General and common styling across all sections */
 #section1 {
   height: 100%;
