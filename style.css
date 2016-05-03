@@ -110,6 +110,11 @@
     border-radius: 2px;
   }
 
+  .img-social {
+    height:44px;
+    width: 44px;
+  }
+
 /* General and common styling across all sections */
 #section1 {
   height: 100%;
