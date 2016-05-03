@@ -229,7 +229,7 @@
   }
 
   #section1 {
-    padding-top: 250px;
+    padding-top:180px;
     height: 580px;
     background-image: url("images/section1.png");
     background-position: 0px 80px;
@@ -250,7 +250,7 @@
   }
 
   #section5 {
-    padding-top:200px;
+    padding-top:150px;
     height: 500px;
     background-image: url("images/section5.png")
   }
@@ -279,7 +279,7 @@
     right: 50%;
   }
   #section1 {
-    padding-top:200px;
+    padding-top:150px;
     height:450px;
     background-image: url("images/section1.png");     
     background-position: 0px 80px; 
