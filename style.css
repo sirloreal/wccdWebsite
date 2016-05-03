@@ -288,7 +288,7 @@
     padding-top:80px;
     height:auto;
     padding-bottom:80px;
-    background-image: url("images/section2T.png");     
+    background-image: url("images/section2t.png");     
     background-position: 100%;     
   }
   #section3 {
@@ -362,7 +362,7 @@
   #section1 {
     padding-top:30vh;
     height:100vh; /*E.g. 100% of the viewport height */
-    background-image: url("images/bg4m.png"); 
+    background-image: url("images/section1m.png"); 
     background-size: cover;
   }
   #section2 {
