@@ -180,6 +180,9 @@
     position: absolute;
     padding: 0px;
   }
+}
+
+@media (max-width: 1024px) {
   .img-responsive {
     margin-left: 5px; 
     margin-bottom:5px; 
@@ -197,6 +200,11 @@
     height: 80px; /* 25px top and bottom plus 30 for the logo */ 
   }
 
+  p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
   .navbar-nav > li > a {
     line-height: 60px;
   }
@@ -211,7 +219,7 @@
   #section2 {
     padding-top: 100px;
     height: auto;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     background-image: url("images/section2.png");
     background-position: 100%;
   }
