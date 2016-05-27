@@ -161,6 +161,14 @@ $(document).ready(function(){
       window.location.hash = hash;
     });
   });
+
+  //Instruct the navbar to collapse when choosing a menu option in toggle mode (e.g. on mobile)
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+
 });
 </script>
 
