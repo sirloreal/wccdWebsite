@@ -207,16 +207,17 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .img-responsive {
+    padding-left: 40px;
+  }
+}
+
 /* E.g. Desktops */
 @media (min-width: 1024px) and (min-height: 768px) {
     .navbar {
     height: 80px; /* 25px top and bottom plus 30 for the logo */ 
   }
-
-  /*.section-text {
-    padding-right: 80px;
-    padding-left: 80px;
-  }*/
 
   p {
     margin-top: 1em;
