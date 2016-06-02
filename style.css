@@ -256,8 +256,9 @@
   }
 
   #section6 {
-    padding-top: 25px;
-    height: 100px;
+    padding-top: 1.0em;
+    height: auto;
+    padding-bottom: 1.0em;
   }
 }
 
@@ -300,9 +301,7 @@
   }
 
   #section6 {
-    padding-top: 25px;
     height: auto;
-    padding-bottom: 25px;
   }
 }
 
@@ -346,9 +345,9 @@
     background-image: url("images/section5.png"); 
   }
   #section6 {
-    padding-top:25px;
+    padding-top: 1.0em;
     height:auto;
-    padding-bottom:25px;
+    padding-bottom: 1.0em;
   }
 }
 
@@ -399,9 +398,9 @@
     background-image: url("images/section5.png"); 
   }
   #section6 {
-    padding-top:25px;
+    padding-top: 1.0em;
     height:auto;
-    padding-bottom:25px;
+    padding-bottom:1.0em;
   }
 }
 
@@ -432,5 +431,6 @@
   #section6 {
     padding-top:20px;
     height:auto; 
+    padding-bottom: 10px; /* Since p margin is already 10px */
   }
 }
