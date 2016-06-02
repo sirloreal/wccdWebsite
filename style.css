@@ -74,6 +74,12 @@
     p {
       font-size: 1.8rem;
     }
+
+    .section-text {
+      padding-right: 80px;
+      padding-left: 80px;
+    }
+
   }
 
   @media (min-width: 1024px) {
@@ -189,7 +195,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .img-responsive {
     margin-left: 15px; 
     margin-bottom: 15px; 
@@ -207,10 +213,10 @@
     height: 80px; /* 25px top and bottom plus 30 for the logo */ 
   }
 
-  .section-text {
+  /*.section-text {
     padding-right: 80px;
     padding-left: 80px;
-  }
+  }*/
 
   p {
     margin-top: 1em;
